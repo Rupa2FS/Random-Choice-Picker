@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(133, 187, 241);
+    text-align: center;
+    margin: 0;
+}
+
+
+h4 {
+    font-size: 24px;
+    color: rgb(6, 6, 6);
+
+}
+
+
+textarea {
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+
+}
+
+
+/* textarea:focus {
+    outline: none;
+
+} */
+
+
+.tag {
+    background-color: orange;
+    border-radius: 50px;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 4px 0 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tag.highlight {
+    background-color: rgb(160, 55, 55);
+}
